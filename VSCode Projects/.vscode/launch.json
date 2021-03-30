@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Distance",
+            "request": "launch",
+            "mainClass": "JavaProjects.Distance",
+            "projectName": "VSCode Projects_59b27da7"
+        },
+        {
+            "type": "java",
             "name": "Launch Dynamic",
             "request": "launch",
             "mainClass": "Dynamic",

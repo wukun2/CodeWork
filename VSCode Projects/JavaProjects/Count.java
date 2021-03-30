@@ -11,7 +11,7 @@ public class Count {
             data[i] = scanner.nextInt();
         }
         int[] temp = new int[n];
-
+        scanner.close();
     }
     public static void sort(int[] data , int begin, int end , int[] temp) {
         if(begin < end){

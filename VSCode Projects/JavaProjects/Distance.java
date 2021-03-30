@@ -1,3 +1,5 @@
+package JavaProjects;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ class pos implements Comparable<pos>{
         }
     }
 }
-public class problem2 {
+public class Distance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = 0;
@@ -29,7 +31,7 @@ public class problem2 {
         }
         Arrays.sort(data);
         for(int i = 0; i < n ; i++){
-            System.out.println(data[i].x + " " + data[i].y);
+            System.out.println(data[i]);
         }
     }
     /*public static void sort(pos[] data , int start , int end , pos[] temp){
