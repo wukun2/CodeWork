@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "JavaProjects.test",
+            "projectName": "VSCode Projects_59b27da7"
+        },
+        {
+            "type": "java",
             "name": "Launch Distance",
             "request": "launch",
             "mainClass": "JavaProjects.Distance",
