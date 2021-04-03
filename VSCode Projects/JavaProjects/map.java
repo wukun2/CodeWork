@@ -1,4 +1,4 @@
-package JavaProjects;
+
 import java.util.Scanner;
 public class map {
 public static void main(String[] args){
@@ -7,11 +7,6 @@ public static void main(String[] args){
     n = scanner.nextInt();
     m = scanner.nextInt();
     double[][] data = new double[n][n];
-    for(int i = 0 ; i < n ; i++){
-        for(int j = 0 ; j < n ; j++){
-            data[i][j] = Double.MAX_VALUE;
-        }
-    }
     for(int i=0; i < m ; i++){
         int x = 0;
         int y = 0;
@@ -38,7 +33,7 @@ public static void main(String[] args){
         }
         for(int i = 0 ; i < n ; i++){
             if(visited[i] == false){
-                if(data[currentNode][i] != Double.MAX_VALUE && data[currentNode][i] + currentDistance < distance[i]){
+                if(data[currentNode][i] != 0 && data[currentNode][i] + currentDistance < distance[i]){
                     distance[i] = data[currentNode][i] + currentDistance;
                 }
             }
