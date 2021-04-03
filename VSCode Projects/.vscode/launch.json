@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch map",
+            "request": "launch",
+            "mainClass": "JavaProjects.map",
+            "projectName": "VSCode Projects_59b27da7"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "JavaProjects.test",
