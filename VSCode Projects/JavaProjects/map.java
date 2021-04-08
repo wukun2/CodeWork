@@ -52,6 +52,6 @@ public static void main(String[] args){
             currentDistance = tempDistance;
             visited[currentNode] = true;
         }
-        System.out.println(distance[n - 1]);
+        System.out.println(String.format("%.2f", distance[n - 1]));
     }
 }
